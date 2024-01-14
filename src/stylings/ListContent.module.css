@@ -1,0 +1,48 @@
+.header {
+background: linear-gradient(90deg, #144EE3 -0.02%, #EB568E 18.86%, #A353AA 64.49%, #144EE3 100.67%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    width: 850px;
+    line-height: 1px;
+    align-items: flex-start;
+    border-radius: 25px;
+    padding: 20px;
+    border-color: #A353AA; /* Specify the color you want */
+    border-width: 10px;    /* Specify the width you want */
+    border-style: solid;  /* Set the border style to solid */
+}
+.element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 10px; 
+    color: aliceblue;
+    background-clip: text;
+}
+
+.p-copy {
+    user-select: all; 
+    cursor: pointer;
+    margin: 0; 
+}
+
+.para {
+    color: whitesmoke
+}
+
+.para a {
+    color: #f5f5f5; 
+    text-decoration: none;
+}

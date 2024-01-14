@@ -1,0 +1,43 @@
+.body {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.outerFrame{
+    display: inline-flex;
+flex-direction: column;
+align-items: center;
+gap: 40px;
+}
+
+.header {
+text-align: center;
+font-family: Inter;
+font-size: 60px;
+font-style: normal;
+font-weight: 800;
+line-height: 80.015px; /* 133.358% */
+background: linear-gradient(90deg, #144EE3 -0.02%, #EB568E 18.86%, #A353AA 64.49%, #144EE3 100.67%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.para{
+display: flex;
+width: 634px;
+height: 47px;
+flex-direction: column;
+justify-content: center;
+color: #C9CED6;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 23.5px; /* 146.875% */
+
+}
+

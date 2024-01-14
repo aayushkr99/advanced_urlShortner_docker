@@ -1,0 +1,86 @@
+/* UrlForm.module.css */
+
+.layout {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column; /* Adjusted to column layout */
+    align-items: flex-end; /* Align items to the end (right side) */
+  }
+  
+  .placeHolderWraper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 659px;
+    height: 46px;
+    padding: 21px 25.188px 21px 25px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 48px;
+    border: 4px solid #353C4A;
+    background: #181E29;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+  }
+
+  .placeHolder {
+    width: 60%; /* Take up the full width of the container */
+    height: 90%; /* Take up the full height of the container */
+    border: none; /* Removed border */
+    background: #181E29;
+    color: #C9CED6;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 175% */
+    box-shadow: none; /* Removed box shadow */
+    cursor: pink; /* Changed cursor color to pink */
+  }
+  
+  .placeHolder::placeholder {
+   
+    color: #C9CED6;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 175% */
+    background: #181E29;
+    border: 0px;
+    text-decoration: none;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+  }
+  
+  .button {
+    margin-left: 10px; /* Add margin to separate the button from the input */
+    width: 178px;
+    padding: 21px 25.047px 21px 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 48px;
+    border: 1px solid #144EE3;
+    background: #144EE3;
+    box-shadow: 10px 9px 22px 0px rgba(20, 78, 227, 0.38);
+  }
+
+
+  /* Add the style for inputLabel */
+.inputLabel {
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Apply styles when input is focused within the inputLabel */
+.inputLabel:focus-within .placeHolder {
+  /* Add focused styles here */
+  border-color: #ff69b4; /* Change border color when focused */
+}

@@ -1,0 +1,65 @@
+.body {
+display: flex;
+/* width: 1621px; */
+width : 100%;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+}
+
+.buttonLogin {
+display: flex;
+height: 60px;
+padding: 21px 25.188px 21px 25px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 48px;
+border: 1px solid #353C4A;
+background: #181E29;
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+color: white
+}
+
+.buttonPrimary{
+display: flex;
+width: 178px;
+padding: 21px 25.047px 21px 25px;
+justify-content: center;
+align-items: center;
+border-radius: 48px;
+border: 1px solid #144EE3;
+background: #144EE3;
+box-shadow: 10px 9px 22px 0px rgba(20, 78, 227, 0.38);
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.heading {
+text-align: center;
+font-family: Inter;
+font-size: 36.914px;
+font-style: normal;
+font-weight: 800;
+line-height: 45.441px; /* 123.1% */
+background: radial-gradient(12441.24% 97.1% at 5.56% 79.01%, #EB568E 0%, #144EE3 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.left {
+    margin-left: 20px;
+}
+
+.right {
+    display: flex;
+}
+
+.right > div {
+    margin-right: 20px;
+}
